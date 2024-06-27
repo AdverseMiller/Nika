@@ -13,7 +13,7 @@ int main() {
 
     //fill in slots for players, dummies and items
     for (int i = 0; i < 60; i++) humanPlayers->push_back(new Player(i, localPlayer, cl, map));
-    //for (int i = 0; i < 15000; i++) dummyPlayers->push_back(new Player(i, localPlayer, cl));
+    //for (int i = 0; i < 15000; i++) dummyPlayers->push_back(new Player(i, localPlayer, cl, map));
 
     //create features     
     NoRecoil* noRecoil = new NoRecoil(cl, display, map, localPlayer);

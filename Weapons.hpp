@@ -1,5 +1,5 @@
 #pragma once
-constexpr int WEAPON_HANDS = 120;
+constexpr int WEAPON_HANDS = 116;
 //Sniper ammo weapons
 constexpr int WEAPON_SENTINEL = 1;
 constexpr int WEAPON_CHARGE_RIFLE = 87;

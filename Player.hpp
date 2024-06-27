@@ -350,6 +350,6 @@ struct Player {
             return localOrigin.Add(Vector3D(0, 0, 0));
 
         BonePosition += localOrigin;
-        return BonePosition;
+        return BonePosition.Add(Vector3D(0, 0, 2));
     }
 };
